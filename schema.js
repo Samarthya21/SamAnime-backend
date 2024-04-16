@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const db_link = process.env.DATABASE;
-mongoose.connect("mongodb+srv://samarthya777:AMirZR2Y0tawLKED@cluster0.1pcf65w.mongodb.net/AnimeDB?retryWrites=true&w=majority")
+//paste mongo db url here
     .then(function (db) {
         console.log("Database connnected");
     })
